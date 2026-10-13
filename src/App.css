@@ -1,0 +1,120 @@
+
+* {
+  box-sizing: border-box;
+  }
+
+  body {
+    margin: 0;
+      font-family: Arial, sans-serif;
+        background: #f3f6fb;
+          color: #1e293b;
+          }
+
+          .app {
+            min-height: 100vh;
+            }
+
+            .navbar {
+              background: #142d4e;
+                color: white;
+                  padding: 18px;
+                    display: flex;
+                      flex-wrap: wrap;
+                        align-items: center;
+                          justify-content: space-between;
+                            gap: 12px;
+                            }
+
+                            .navbar h2 {
+                              margin: 0;
+                              }
+
+                              nav {
+                                display: flex;
+                                  flex-wrap: wrap;
+                                    gap: 5px;
+                                    }
+
+                                    button {
+                                      cursor: pointer;
+                                        border: none;
+                                          border-radius: 6px;
+                                            padding: 10px 12px;
+                                            }
+
+                                            nav button {
+                                              background: transparent;
+                                                color: white;
+                                                }
+
+                                                nav button:hover {
+                                                  background: #29486c;
+                                                  }
+
+                                                  main {
+                                                    min-height: 75vh;
+                                                      padding: 35px 18px;
+                                                      }
+
+                                                      .hero {
+                                                        max-width: 800px;
+                                                          margin: 35px auto;
+                                                            padding: 45px 20px;
+                                                              text-align: center;
+                                                                background: white;
+                                                                  border-radius: 14px;
+                                                                  }
+
+                                                                  .hero h1 {
+                                                                    font-size: 34px;
+                                                                      color: #142d4e;
+                                                                      }
+
+                                                                      .hero p {
+                                                                        line-height: 1.7;
+                                                                        }
+
+                                                                        .primary {
+                                                                          background: #245b91;
+                                                                            color: white;
+                                                                              margin-top: 12px;
+                                                                              }
+
+                                                                              .primary:hover {
+                                                                                background: #173d65;
+                                                                                }
+
+                                                                                .panel {
+                                                                                  max-width: 700px;
+                                                                                    margin: 20px auto;
+                                                                                      padding: 25px;
+                                                                                        background: white;
+                                                                                          border-radius: 12px;
+                                                                                          }
+
+                                                                                          .panel form {
+                                                                                            display: grid;
+                                                                                              gap: 12px;
+                                                                                                margin-top: 20px;
+                                                                                                }
+
+                                                                                                input {
+                                                                                                  width: 100%;
+                                                                                                    padding: 13px;
+                                                                                                      border: 1px solid #cbd5e1;
+                                                                                                        border-radius: 6px;
+                                                                                                        }
+
+                                                                                                        .stat {
+                                                                                                          padding: 18px;
+                                                                                                            background: #edf5fb;
+                                                                                                              border-radius: 8px;
+                                                                                                              }
+
+                                                                                                              footer {
+                                                                                                                padding: 20px;
+                                                                                                                  text-align: center;
+                                                                                                                    background: #142d4e;
+                                                                                                                      color: white;
+                                                                                                                      }
+                                                                                                                      
