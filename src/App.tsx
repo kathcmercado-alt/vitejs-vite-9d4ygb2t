@@ -39,7 +39,7 @@
 
                                                                                                   function deleteProduct(id: number) {
                                                                                                       setProducts(products.filter((p) => p.id !== id));
-                                                                                                        }
+                                                                                                     }
 
                                                                                                           return (
                                                                                                               <div className="app">
